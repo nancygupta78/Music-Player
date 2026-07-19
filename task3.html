@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="container">
+    <h1>🎵 My Music Player 🎵</h1>
+
+<div class="player">
+
+    <img id="cover" src="./music pic/images.jfif" alt="Cover">
+
+    <h2 id="title"></h2>
+    <p id="artist"></p>
+
+    <audio id="audio"></audio>
+
+    <input type="range" id="progress" value="0">
+
+    <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="play">▶</button>
+        <button id="next">⏭</button>
+    </div>
+
+    <div class="volume">
+        Volume
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    </div>
+</div>
+<p class="footer">Made by Nancy Gupta❤️</p>
+</div>
+
+
+<script src="task3.js"></script>
+</body>
+</html>
